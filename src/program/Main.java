@@ -47,6 +47,12 @@ public class Main {
 		seller.setName("Marta Wane");
 		sellerdao.update(seller);
 		System.out.println("update complete");
+		
+		
+		System.out.println();
+		System.out.println("========= TEST 6 sellerDelete");
+		sellerdao.deletebyId(11);
+		System.out.println("seller delete");
 	}
 
 }
