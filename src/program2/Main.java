@@ -24,7 +24,11 @@ public class Main {
 		Department dep = departmentDao.findbyid(2);
 		System.out.println(dep);
 		
-		
+		System.out.println();
+		System.out.println("=========== TEST 3 insert ============");
+		Department dep1 = new Department(null, "financial");
+		departmentDao.insert(dep1);
+		System.out.println("insert success");
 	}
 
 }
