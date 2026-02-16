@@ -36,6 +36,11 @@ public class Main {
 		departmentDao.updateById(dep2);
 		System.out.println("Update sucess");
 		
+		System.out.println();
+		System.out.println("============ TEST 5 deleteById ===========");
+		departmentDao.deleteById(5);
+		System.out.println("Delete sucess");
+		
 		
 	}
 
