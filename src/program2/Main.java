@@ -25,10 +25,18 @@ public class Main {
 		System.out.println(dep);
 		
 		System.out.println();
-		System.out.println("=========== TEST 3 insert ============");
-		Department dep1 = new Department(null, "financial");
-		departmentDao.insert(dep1);
+		System.out.println("=========== TEST 3 insert ===============");
+		//Department dep1 = new Department(null, "financial");
+		//departmentDao.insert(dep1);
 		System.out.println("insert success");
+		
+		System.out.println();
+		System.out.println("========= TEST 4 update =================");
+		Department dep2 = new Department(5, "human resources");
+		departmentDao.updateById(dep2);
+		System.out.println("Update sucess");
+		
+		
 	}
 
 }
